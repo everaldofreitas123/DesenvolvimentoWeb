@@ -1,0 +1,213 @@
+body{
+    font-family: 'Roboto', sans-serif;    
+}
+
+nav a{
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 48px;
+}
+
+li{
+    display: inline;
+    
+}
+
+#banner{
+    background-color: #070512;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 96px 0px;
+}
+
+#banner h1{
+    font-size: 48px;   
+    font-weight: bolder; 
+    margin-bottom: 24px;
+}
+
+#banner span{
+    color: #42928f;
+}
+
+#banner p{
+    margin-bottom: 16px;
+    line-height: 24px;
+  
+}
+
+button{
+    background-color: #42928f;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bolder;;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    padding: 18px 16px;
+}
+
+#sobreMim{
+    background-color: #fafafa;
+    padding: 64px 32px;
+    margin-top: 24px;
+}
+
+#foto img{
+    border: 5px solid #FFF;
+    box-shadow: 0px 0px 10px 5px #999;
+}
+
+#sobreMim h2{
+    color: #42928f;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#sobreMim p, #conhecimentos p, #portfolio p{
+    margin: 36px 0px 64px 0px;
+    color: #666;
+    text-align: justify;
+    line-height: 24px;
+}
+
+#foto{
+    float: left;
+    margin-right: 48px;
+}
+
+.tituloVerde{
+    font-size: 36px;
+    color: #42928f;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#conhecimentos, #portfolio{
+    padding: 64px 32px;
+    background-color: #fff;
+}
+
+
+#conhecimentos h3{
+    color: #666;
+    font-weight: bolder;
+}
+
+#experiencia, #contato{
+    background-color: #42928f;
+    padding: 64px 32px;
+    height: auto;
+    overflow: hidden;
+}
+
+.tituloBranco{
+    font-size: 36px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bolder; 
+    margin-bottom: 24px;
+}
+
+.textoBranco{
+    color: #FFF;
+    line-height: 24px;
+    text-align: justify;
+}
+
+#experiencia img, #portfolio img{
+    margin: 24px 4px 0px 4px;
+}
+
+#experiencia img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+#experiencia div, #portfolio div{
+    text-align: center;
+}
+
+#contato div{
+    box-sizing: border-box;
+    margin-top: 24px;
+    border: 5px solid #42928f;
+    
+}
+
+
+#formulario{
+    background-color: #fff;
+    padding: 24px;
+    text-align: right;
+}
+
+input, textarea{
+    margin-top: 16px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px #ccc solid;
+    padding: 20px 0px;
+    color: #555;
+}
+textarea{
+    height: 342px;
+}
+
+#btn-enviar{
+    background-color: #fff;
+    color: #42928f;
+    width: auto;
+    padding: 15px;
+    border: 1px solid #42928f;
+}
+
+#btn-enviar:hover{
+    background-color: #42928f;
+    color: #fff;
+}
+
+footer{
+    padding: 32px;
+    color: #555;
+    text-align: center;
+}
+
+/* sobrescrevendo classes materialize*/
+
+.progress{
+    height: 24px;
+    border: 1px solid #42928f;
+}
+
+.tabs .indicator{
+    background-color: #004d40;
+}
+
+.tabs .tab a.active{
+    background-color: #009688;
+    color: #FFF!important;
+}
+
+
+.slider .indicators .indicator-item.active{
+    background-color: #009688;
+}
+
+
+
+.slider .indicators .indicator-item{
+    background-color: #b2dfdb;
+}
+
+.btn-projetos{
+    margin: 36px 0px 24px 0px;
+    width: 100%;
+    height: 64px;
+    font-size: 24px;
+    font-weight: bolder;
+}

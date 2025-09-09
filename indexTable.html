@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #t1, tr, td, th {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+
+        #t2, .tr1, .td1 {
+            border:0px;
+        }
+
+
+    </style>
+    <h3>Trabalhando com tabelas</h3>
+   <table id="t1">
+    <caption>TABELA DE VENDAS</caption>
+    
+    <!-- Cabeçalho da tabela -->
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+
+    <!-- Corpo da tabela -->
+    <tbody>
+        <tr>
+            <td>Caneta</td>
+            <td>5,00</td>
+            <td>2</td>
+            <td>10,00</td>
+        </tr>
+        <tr>
+            <td>Lapis</td>
+            <td>2,00</td>
+            <td>3</td>
+            <td>6,00</td>
+        </tr>
+    </tbody>
+
+    <!-- Rodapá da tabela -->
+    <tfoot>
+        <tr>
+            <td colspan="3">Total</td>
+            <td>16,00</td>
+        </tr>
+    </tfoot>
+   </table>
+
+   <hr>
+   <h3>Trabalhando com formulários</h3>
+   <!-- Itens de formulário -->
+    <form action="js/teste.js" method="post">
+    <table id="t2">
+        <tr class="tr1">
+            <td class="td1"><label for="nome">NOME</label></td>
+            <td class="td1"><input type="text" name="nome" id="nome"></td>
+        </tr>
+
+        <tr class="tr1">
+            <td class="td1"><label for="sobrenome">SOBRENOME</label></td>
+            <td class="td1"> <input type="text" name="sobrenome" id="sobrenome"></td>
+        </tr>
+        
+        <tr class="tr1">
+            <td class="td1"> <label for="email">EMAIL</label></td>
+            <td class="td1"><input placeholder="teste@teste.com" type="text" name="email" id="email">
+</td>
+        </tr>
+      
+        
+        <tr class="tr1">
+            <td class="td1"><label for="rg">RG</label></td>
+            <td class="td1"><input type="text" name="rg" id="rg"></td>
+        </tr>
+        
+        
+     </table>
+
+        <input type="submit" value="Cadastrar">
+<hr>
+<h3>Login e senha</h3>
+<label for="usuario">Usuário</label>
+<input type="text" name="usuario" id="usuario">
+<label for="senha">Senha</label>
+<input type="password" name="senha" id="senha">
+<button>Login</button>
+
+<hr>
+<h3>Caixas de seleção múltipla</h3>
+
+<input type="checkbox" name="redes"> Redes Sociais
+<input type="checkbox" name="tv"> TV
+<input type="checkbox" name="jornal"> Jornais
+<br>
+<hr>
+
+<h3>Caixa de seleção única</h3>
+
+<input type="radio" name="tipo"> CPF
+<input type="radio" name="tipo"> CNPJ
+
+<br>
+<hr>
+<h3>Caixas de texto de multiplas linhas</h3>
+<textarea name="mensagem" id="areatexto"></textarea>
+<button>Enviar</button>
+
+<br>
+<hr>
+<h3>Caixas de seleção única Combo</h3>
+
+<select name="caixaselecao" id="caixaselecao">
+   <option value="sp">São Paulo</option>
+   <option value="rj">Rio de Janeiro</option>
+   <option value="mg">Minas Gerais</option>
+   <option value="pr">Paraná</option>
+   <option value="rs">Rio Grande do Sul</option>
+   <option value="sc">Santa Catarina</option>
+</select>
+        
+</form>
+   
+</body>
+</html>
